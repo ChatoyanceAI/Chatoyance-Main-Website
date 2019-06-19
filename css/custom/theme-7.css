@@ -1,0 +1,230 @@
+
+
+/*============
+
+This file only contains the theme color schemes, (not the style ) If you want to change the color schemes of the theme 
+just change the color code  and rgba value. The whole theme color will be changed.
+
+===========*/
+
+
+
+
+
+/* Filter the 'background' value classes*/
+
+.top_header,.bottom_header .address_container .icon_holder,.top_header div.dropdown ul,
+.title_container span.decor_default,.finance_text h3 span,
+.title_container span.decor-equal, .banner-title span.decor-equal,.parallax .overlay,
+.button-main,.our_partners,.banner ul li a.consultation,footer .subscribe_us button,footer .subscribe_us ul li a:hover,
+footer .subscribe_us ul li a:focus,.consultation .dropdown ul li:hover,.breadcrumb_sec ul li.dot,
+.carousel.vertical .carousel-control.down,.carousel.vertical .carousel-indicators li.active,
+.growth_statistics ul li:nth-child(1):before,#customer-say-slider .carousel-indicators li:before,
+.cart_table .payment_system a,.service_single_page_content .tab-content .carousel .carousel-indicators li:before,
+.key_benefits_panel .panel-heading.active-panel,.brochures a:hover span,.brochures a:focus span,
+.submit_form form button.submit,.submit_form form .dropdown ul li:hover,.lets_talk_to_us form  .dropdown ul li:hover,
+.login_page .submit_button button,.news_single_post .news_post .share_item ul li a,.hvr-sweep-to-right:before,
+.news_single_post .news_post .leave_reply button,.twitter_feeds .single_twitter_feed .icon_holder,
+.single_project_page .image_gallery ul li a i,.project_gallery .gallery_menu ul li.active,.shop_contianer .result_shorting .dropdown ul li:hover,
+.shop_contianer .pagination ul li a:hover, .shop_contianer .pagination ul li.active a,.shop_contianer .single_product_item .product_history a.add_to_cart:hover,
+.shop_aside .single-sidebar.price-ranger .ui-widget-header,.cart .cart_table .icon_holder,.cart a.cart_btn1,.cart a.cart_btn2,
+.cart .shipping_address .submit_form2 .dropdown-menu li:hover,.banner .title_container span.decor-equal:before,.banner .title_container span.decor-equal:after,
+.banner .title_container span.decor_default:before,.banner .title_container span.decor_default:after,.switcher .switch_btn button,
+.onoffswitch-checkbox:checked + .onoffswitch-label,.onoffswitch-checkbox:checked + .onoffswitch-label,
+.switcher .switch_menu>p,.banner ul li a.consultation_button,.banner .tp-rightarrow:hover,.banner .tp-leftarrow:hover,.ui-widget-content .ui-state-focus {
+	background: #ceab63;
+}
+
+
+
+/* Filter the 'color' value classes*/
+
+.bottom_header .address_container .text_holder span,.tparrows.tp-leftarrow:before,.finance_text h3,
+.finance_text h3:before,.finance_text a,#best-services .owl_slider .customNavigation a i:hover,.icon_border span,
+.people_choose_us span.icon:before,.parallax .button a,.team .member_info>span,.team .member_info a,
+.latest_news .single_news a.read_more:hover,.news_aside h3,.latest_news .single_news .img_holder .icon_holder a,
+.banner .slide_show h6,footer .links ul li a:hover,footer .contact_us ul li a:hover,.carousel.vertical .carousel-indicators li span,
+.mission_value .ticker-headline ul li i,#customer-say-slider .flaticon-quotes3:before,#customer-say-slider .client_name span,
+.experts_planning h3 span:before,.experts_planning ul li:before,.experts_planning ul li a:hover,
+.service_single_page_content .tab_nav_holder ul li.active a, .service_single_page_content .tab_nav_holder ul li:focus a,
+.service_single_page_content .tab_nav_holder ul li a:hover,.service_single_page_content .tab-content .carousel .item a,
+.brochures a:hover,.brochures a:focus,.contact_text .contact_num p span,.contact_text .meet_office .contact_information h5,
+.contact_text .meet_office .mail:before,.contact_text .meet_office .address:before,.login_page .login_option .social_icon>a,
+article.news_post .post_heading ul li a:hover,article.news_post .post_heading ul li:hover i,.news_single_post .news_post .author_text p a:hover,
+.news_single_post .news_post .commment_area .single_comment a.reply,.blog_feeds .single_feeds .text_holder ul li i,
+.news_categories ul li a i,.news_categories ul li a:hover,.twitter_feeds .single_twitter_feed .feed p a,.twitter_feeds .single_twitter_feed .feed span,
+.popular_tag ul li a:hover,article.news_post .share_read a.read_more:hover,article.news_post .pagination_menu ul li a.active,
+article.news_post .pagination_menu ul li a:hover,.description_list li>i,.description_list li ul li a:hover,.project_gallery .mix:hover .text_data a span,
+.shop_contianer .single_product_item .img_holder .overlay .icon_container a i,.single_shop .product_container .overlay .icon_container a i,.shop ul.product_rating li a,
+.shop_contianer .single_product_item .product_history span,.shop_aside .best_sellers .single_sell_item .book_price span,.cart .cart_table .table-1 tbody tr td span.color_fix,
+.single_product_details .product_container .product_history .book_review span,.single_product_details .product_container .product_history .book_name .author_name p span,
+.single_product_details .product_container .product_history>span,.tparrows.tp-leftarrow:before,
+.banner .tparrows.tp-rightarrow:before {
+	color:#ceab63;
+}
+
+/*make sure the slider navigation arrow color still white*/
+.banner .tp-rightarrow:hover:before,
+.banner .tp-leftarrow:hover:before {
+  color:#fff;
+}
+
+
+/* Filter the 'background-color' value classes*/
+
+.single_service_item:hover .service_icon,
+.onoffswitch-label {
+	background-color: #ceab63;
+}
+
+
+/* Change the main menu background color */
+
+.main_menu{
+	background: #222222;
+}
+
+
+
+/* Filter the 3px rgba border value classes */
+
+footer .subscribe_us ul li a:hover,
+footer .subscribe_us ul li a:focus {
+	border:3px solid rgba(206,171,99,0.2);
+	-moz-background-clip: padding;     /* Firefox 3.6 */
+	-webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+	background-clip: padding-box; 
+}
+
+
+
+/* Filter the 2px rgba border value classes */
+
+.title_container span.decor_default,
+.title_container span.decor-equal,
+.banner-title span.decor-equal,
+.breadcrumb_sec ul li.dot,
+.carousel.vertical .carousel-control.down,
+.carousel.vertical .carousel-indicators li.active,
+.growth_statistics ul li:nth-child(1):before,
+.news_single_post .news_post .share_item ul li a,
+.twitter_feeds .single_twitter_feed .icon_holder,
+.shop_contianer .pagination ul li a:hover,
+.shop_contianer .pagination ul li.active a {
+	border:2px solid rgba(206,171,99,0.3);
+	-moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+}
+
+
+/* Slider navigation color change */
+
+.banner .tp-rightarrow:hover ,
+.banner .tp-leftarrow:hover {
+  background: #ceab63;
+  border: 5px solid rgba(206,171,99,0.2);
+  -moz-background-clip: padding;     /* Firefox 3.6 */
+  -webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+  background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+}
+
+/* Filter the 6px rgba border value classes */
+
+.bottom_header .address_container .icon_holder {
+	border:6px solid rgba(206,171,99,0.10);
+	-moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+}
+
+
+/* Filter the 2px solid border value classes */
+
+.service_icon .icon_border,
+.faq_sec .panel-default>a[aria-expanded="true"] .panel-heading:before,
+.faq_sec .panel-default>a:focus .panel-heading:before,
+#customer-say-slider .carousel-indicators li,
+#customer-say-slider .carousel-indicators li.active,
+.service_single_page_content .tab-content .carousel .carousel-indicators li,
+.service_single_page_content .tab-content .carousel .carousel-indicators li.active{
+	border:2px solid #ceab63;
+}
+
+
+/* Filter the background rgba color value classes*/
+
+.testimonial .img_holder .overlay,
+.gallery_sec .gallery_img .overlay,
+.hvr-sweep-to-bottom:before,
+.news_aside .aside_item .overlay,
+article.news_post .single_news_post .img_container:before,
+.hvr-shutter-out-vertical:before,
+.single_project_page .image_gallery ul li a .opacity_holder .bg_color,
+.shop_contianer .single_product_item .img_holder .overlay,
+.single_shop .product_container .overlay {
+	background: rgba(206,171,99,0.5);
+}
+
+
+
+/* change the search icon background color */
+
+.main_menu .search_icon,.main_menu #search {
+	background-color: #292929;
+}
+
+
+/* change the theme logo for your own color schemes */
+
+.bottom_header .logo_holder {
+/*	background: url(../../images/home/logo-7.png) no-repeat 100% 100%;
+	  display: block;
+  max-height: 100%;
+  max-width: 100%;*/
+}
+.stay_with_finance .text_container span.logo,
+footer .footer_logo a.logo {
+	background: url(../../images/home/logo-white7.png) no-repeat 0% 100%;
+}
+
+.banner .logo span.logo {
+  display: block;
+  background: url(../../images/home/logo-icon7.png) no-repeat center;
+  height: auto;
+  max-width: 100%;
+}
+
+
+
+/* Contain the color schemes when the menu is stick*/
+
+.fixed {
+  position: fixed;
+  background: #272727;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index: 9999;
+  animation-name: fixed-bouce;
+  animation-duration:1s;
+  -webkit-box-shadow: 0px 13px 30px -12px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 13px 30px -12px rgba(0,0,0,0.75);
+	box-shadow: 0px 13px 30px -12px rgba(0,0,0,0.75);
+}
+.fixed .search_icon {
+	background-color: #2b2b2b;
+}
+.fixed #search {
+	background: #2b2b2b;
+}
+
+
+/* Change the top header text color according to your color schemes*/
+
+.top_header p,
+.top_header a,
+.top_header button,
+.top_header div.dropdown ul li {
+	color:#efefef;
+}

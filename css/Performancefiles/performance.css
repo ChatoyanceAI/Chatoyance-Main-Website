@@ -1,0 +1,935 @@
+*{
+	outline: none;
+}
+p a{
+	color: #1C4E9E;
+    text-decoration: underline!important;
+}
+.page-template-page-performance #mk-footer {
+    float: left;
+}
+.loader{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: 20%;
+	mix-blend-mode: multiply;
+	
+}
+
+
+/*for new loader icon   -pratik*/
+.newloader{
+	width: 100px;
+	height: 50px;
+	position: relative;
+	mix-blend-mode: multiply;
+	
+}
+/*pratik*/
+
+.t_statistics table tr td:first-of-type{
+	text-align: left;
+	padding-left: 10px;
+}
+.mt_perform {
+    width: 100%;
+    float: left;
+    padding-top: 180px;
+    background: url("../../images/5.jpg") no-repeat center top / cover ;
+    font-family:"open sans";
+    font-size: 12px;
+    text-rendering: optimizeLegibility;
+	font-family: Open sans;
+	background-attachment: fixed;
+	min-height: 2130px;
+}
+
+.mt_perform h2 {
+    color: #000;
+    font-size: 32px;
+}
+
+.mt_perform .table tbody tr:nth-child(odd){
+    background-color: rgba(0, 0, 0, 0.04);
+}
+.mt_perform .table tbody tr:nth-child(even){
+    background-color:rgba(0,0,0,0);
+}
+.mt_perform .table thead tr th{
+    background:rgba(0,0,0,0)!important;
+    background-color:rgba(0,0,0,0)!important;
+}
+.addButtonRow{
+	background-color: rgba(0,0,0,0)!important;
+	/*background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB3aWR0aD0iODExcHgiIGhlaWdodD0iMnB4IiB2aWV3Qm94PSIwIDAgODExIDIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM6c2tldGNoPSJodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2gvbnMiPiAgICAgICAgPHRpdGxlPkxpbmU8L3RpdGxlPiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4gICAgPGRlZnM+PC9kZWZzPiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBza2V0Y2g6dHlwZT0iTVNQYWdlIj4gICAgICAgIDxnIGlkPSJwZXJmb3JtYW5jZS0iIHNrZXRjaDp0eXBlPSJNU0FydGJvYXJkR3JvdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03OC4wMDAwMDAsIC02NzUuMDAwMDAwKSIgc3Ryb2tlPSIjRUVFRUVFIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPiAgICAgICAgICAgIDxwYXRoIGQ9Ik03OS41LDY3NiBMODg3LjUxMjM5LDY3NiIgaWQ9IkxpbmUiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiPjwvcGF0aD4gICAgICAgIDwvZz4gICAgPC9nPjwvc3ZnPg==);*/
+	background-size: 100% 100px;
+	background-position: center center;
+}
+.addButtonRow td{
+	text-align:center!important;
+}
+.mt_perform .wrapper {
+    width: auto;
+    margin: 0 auto;
+}
+.mt_perforn input[type=number]{
+    font-family:"open sans"!important;
+}
+.mt_graph {
+    width: 90%;
+    float: none;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 50px 66px 15px;
+    position: relative;
+    top: -40px;
+    left:5%;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    margin: auto;
+    display: inline-block;
+}
+.mt_graph:nth-child(1){
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+}
+
+ .highcharts-background{
+	 display:none!important;
+ }
+.highcharts-legend > rect{
+	fill:rgba(0, 0, 0, 0.05)!important;
+	stroke:none!important;
+}
+.highcharts-series path{
+	fill:none!important;
+}
+.p_title {
+    width: 100%;
+    float: left;
+}
+
+.p_title img {
+    max-width: 100%;
+    height: auto;
+}
+
+.p_title h2 {
+    display:none;
+    text-transform: uppercase;
+}
+
+.gra_cont {
+    width: 100%;
+    float: left;
+}
+
+.left_gra {
+    width: 60%;
+    float: left;
+}
+
+.left_gra > h2 {
+    color: #000;
+    margin: 10px 0px 20px 0px;;
+}
+
+.safer {
+    width: 100%;
+    float: left;
+}
+
+.safer table, .h_return table, .t_statistics table {
+    margin: 5px 0px;
+}
+
+
+
+
+
+.safer table tr th, .h_return table tr th {
+    margin: 0px 1px;
+    padding: 6px 3px;
+    text-transform: inherit;
+    text-align: inherit;
+    color: #000;
+}
+
+.safer table tr:first-child th, .h_return table tr:first-child th {
+    text-align: right;
+    padding-right: 10px;
+}
+.safer table tr:first-child th{
+    width: 16%;
+    vertical-align: middle;
+}
+.safer table tr td {
+    padding: 8px 10px;
+    text-transform: inherit;
+    color: #000;
+    vertical-align: middle;
+}
+
+.safer table tr td strong {
+    text-align: left;
+    display: block;
+}
+
+.safer table tr td span.addanindex {
+    background: #1C2B46;
+    padding: 10px 20px;
+    color: #fff;
+    display: inline-block;
+	cursor:pointer;
+}
+.safer table tr td .addanindexdiv {
+position:absolute; width:220px; background:#FFFFFF; margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0; display:none;
+bottom:50px;
+}
+
+
+.safer table tr td a:hover {
+    background: #9b7d0d;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.safer table tr td input[type="number"] {
+    border: 2px solid #DEDEDE;
+    padding: 0px 0px 0px 2px;
+    width:50px;
+    text-align: center;
+}
+
+.actual_graph {
+    width: 100%;
+    float: left;
+    margin: 50px 0px 15px 0px;
+}
+
+.actual_graph img {
+    max-width: 100%;
+    height: auto;
+}
+
+.h_return {
+    width: 100%;
+    float: left;
+    margin: 10px 0px 15px 0px;
+}
+
+.safer table tr td .addanindexdiv  td{
+padding: 10px 0px;
+    text-align: left;
+	cursor:pointer;
+}
+.safer table tr td .addanindexdiv  td input {
+padding-left:10px;
+}
+.safer table tr td .addanindexdiv  table{
+padding:0px;
+margin:0px;
+border:1px solid #003168;
+}
+
+.h_return table tr td {
+    padding: 8px 1px;
+    text-transform: inherit;
+    color: #000;
+}
+
+.h_return table tr td span.red {
+    color: #BC6969;
+}
+
+.right_gra {
+    width: 36%;
+    float: right;
+}
+.returns .t_statistics table tr:first-child th{
+	text-align: right;
+}
+.right_gra h2 {
+    color: #000;
+    margin: 10px 0px 20px 0px;
+}
+
+.t_statistics {
+    width: 100%;
+    float: left;
+}
+
+.t_statistics table {
+    border: 2px solid #E7E7E7;
+}
+
+
+
+.t_statistics table tr th {
+    margin: 0px 1px;
+    padding: 6px 3px;
+    text-transform: inherit;
+    text-align: inherit;
+    color: #000;
+}
+
+.t_statistics table tr:first-child th {
+    text-align: center;
+}
+
+.t_statistics table tr td {
+    padding: 8px 6px;
+    /*text-transform: uppercase;*/
+    color: #000;
+    text-align: right;
+}
+
+.safer table.footable > tbody > tr > td, .h_return table.footable > tbody > tr > td {
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+ .footable-first-column{
+	 text-align: left!important;
+ }
+ .h_return  .footable-first-column{
+	 text-align: right!important;
+ }
+ .h_return h6{
+	 margin-top:-30px;
+ }
+.tooltip {
+    cursor: pointer;
+}
+
+.graph_contain {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto
+}
+
+
+input[type=number].weightselection::-webkit-inner-spin-button {
+    opacity: 1
+}
+label  {
+cursor:pointer;
+}
+
+
+/*Pratik*/
+
+.weighted {
+    outline: 3px solid #dfdfdf !important;
+}
+.cogicon {
+    float: left;
+    cursor: pointer;
+    margin-right: 14px;
+    margin-top: 3px;
+}
+.extratr {
+    background-color: #fff !important;
+    border: 0 solid;
+}
+.comparision{
+    float:left;
+    width:100%;
+    border:3px dashed #dfdfdf;
+    box-sizing: border-box;
+    margin-top:14px;
+    padding:7px 15px;
+    text-align:center;
+}
+.add_div{
+    display:inline-block;
+    text-align:center;
+    vertical-align:top;
+}
+.add_div a{
+    font-size:14px;
+    color:#242424;
+    text-decoration:none;
+    padding-left: 15px;
+    display:inline-block;
+    vertical-align:top;
+    cursor: pointer;
+}
+.add_div a:hover{
+    color:#000;
+}
+.add_div i{
+    color:#8b8b8b;
+    line-height:22px;
+    font-size: 20px;
+}  
+
+
+
+.fourbox {
+    width: 100%;
+    float: left;
+    text-align: center;
+    /*margin-top: 20px;*/
+}
+.box1 {
+    display: inline-table;
+    width: 160px;
+    height: 160px;
+    border: solid 3px #cfcfcf;
+    margin-right: 15px;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: Open sans;
+    font-weight: bold;
+    color:#d8d8d8;
+}
+.box1 .weightselection {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    color: #333;
+}
+.boxactive {
+    border: solid 3px #1c2b46;
+}
+.boxactive .titlediv {
+    
+    color:#333;
+}
+.box1 > input {
+    width: 50%;
+}
+.titlediv {
+    text-align: center;
+}
+.numberdiv {
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+}
+.numberdiv > input {
+    width: 100%;
+}
+.paddingtop {
+    padding-top: 20px;
+}
+.paddingtop2 {
+    padding-top: 8px;
+}
+.indextitle {
+    margin-left: 28px;
+    font-size: 23px;
+    margin-top: -40px;
+}
+.closebtn {
+    display: inline-block;
+    width: 100%;
+}
+.closefancy {
+    float: right;
+    cursor: pointer;
+}
+.toolcl {
+    display: inline-block;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+.disofchk {
+    display: none;
+}
+.btop50tooltipcus {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.1);
+    border: 2px solid #fff;
+    color: #000;
+    margin-left: 100px;
+    padding: 25px !important;
+    max-width: 370px;
+}
+.btop50tooltipcus .tooltipster-arrow-top span, .btop50tooltipcus .tooltipster-arrow-top .tooltipster-arrow-border, .btop50tooltipcus .tooltipster-arrow-bottom span, .btop50tooltipcus .tooltipster-arrow-bottom .tooltipster-arrow-border {
+    right: 219px !important;
+}
+.btop50tooltipcus .tooltipster-content {
+	font-family: Open sans;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 8px 10px;
+}
+.lifetexttitle {
+  opacity: 0.4;
+  font-size: 18px;
+  color: #000000;
+}
+.lifetodatecl {
+    width: 100%;
+    display: inline-block;
+    float: right;
+    margin-bottom: 20px;
+}
+.lifetodatecl div {
+    float: right;
+}
+.switchtog {
+    background-color: rgb(188, 237, 255);
+    border: 2px solid rgb(188, 237, 255);
+    border-radius: 32px;
+    display: inline-block;
+    height: 20px;
+    width: 40px;
+    margin: 0 10px -5px;
+}
+.switchimg {
+    cursor: pointer;
+}
+.imgclicke {
+    cursor: pointer;
+}
+.custooltipforermsg {
+    transition-duration: 350ms !important; 
+    animation-duration: 350ms !important; 
+    left: 320px !important;
+    top: 260px !important;
+}
+.extratr {
+    visibility: hidden;
+}
+.toolsvgicon {
+    vertical-align: middle;
+    margin-top: 0px;
+    display: inline-block;
+    cursor: help;
+    /* float: right; */
+}
+.extrastrongcl {
+    display: inline !important;
+    float: left;
+}
+.addiconsvgcl {
+    margin-bottom: -3px;
+    margin-right: 14px;
+    margin-top: 2px;
+}
+.cal {
+    width: 192px;
+    height: 49px;
+    background-color: #315aaf;
+    border: 1px solid #315aaf;
+    color: #fff;
+    font-size: 16px;
+}
+
+.highcharts-legend-item {
+    left: 0px !important;
+}
+.highcharts-legend-item > span {
+    left: 0px !important;
+    
+}
+.legendnamecl img {
+    font-size: 23px;
+    margin-left: 10px;
+    margin-right: 11px;
+}
+.nameclfortopalign {
+    vertical-align: top;
+}
+.respon {
+    display: none;
+}
+.addanindexdiv {
+    display: none;
+}
+/*Pratik*/
+
+/*========== Responsive CSS start ==========*/
+
+@media only screen and (max-width: 1280px) {
+
+/*.mt_perform .wrapper {
+    width:1000px;
+}*/
+
+
+
+}
+
+@media only screen and (max-width: 1010px) {
+
+.mt_perform .wrapper {
+    width:750px;
+}
+
+.footable.breakpoint > tbody > tr > td > span.footable-toggle {
+    float: left;
+}
+
+.safer table.footable > tbody > tr > td, .h_return table.footable > tbody > tr > td {
+    text-align: left;
+}
+
+.graph_contain .highcharts-container {
+    width: 100% !important;
+    height: auto !important;
+    overflow: inherit !important;
+}
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+.addButtonRow .footable-toggle{
+	display:none!important;
+}
+.footable-toggle{
+	/*margin:auto 20px;*/
+}
+.footable td:nth-child(2n){
+	text-align: left !important;
+}
+ .addButtonRow td{
+ 	text-align:center!important;
+ }   
+.left_gra {
+    float: left;
+    width: 100%;
+}
+
+.p_title h2 {
+}
+
+.right_gra {
+    width: 100%;
+}
+
+.footable.breakpoint > tbody > tr > td > span.footable-toggle {
+    float: left;
+}
+
+.safer table.footable > tbody > tr > td, .h_return table.footable > tbody > tr > td {
+    text-align: left;
+}
+
+.graph_contain .highcharts-container {
+    width: 100% !important;
+    height: auto !important;
+    overflow: inherit !important;
+}
+/*Pratik*/
+.respon {
+    display: inline-block;
+    float: left !important;
+    width: auto;
+}
+.fullweb {
+    display: none;
+}
+/*Pratik*/
+}
+
+/*Pratik*/
+@media only screen and (max-width: 480px) {
+    .btop50tooltipcus {
+        margin-left: 0px;
+        padding: 25px !important;
+        max-width: 370px;
+    }
+    .btop50tooltipcus .tooltipster-arrow-top span, .btop50tooltipcus .tooltipster-arrow-top .tooltipster-arrow-border, .btop50tooltipcus .tooltipster-arrow-bottom span, .btop50tooltipcus .tooltipster-arrow-bottom .tooltipster-arrow-border {
+        right: 20px !important;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .custooltipforermsg {
+        left: 265px !important;
+        top: 250px !important;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .custooltipforermsg {
+        left: 200px !important;
+        top: 245px !important;
+    }
+    .lifetodatecl div {
+        float: left;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .custooltipforermsg {
+        left: 180px !important;
+        top: 440px !important;
+    }
+    .lifetodatecl div {
+        float: left;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .custooltipforermsg {
+        left: 120px !important;
+        top: 470px !important;
+    }
+    .lifetodatecl div {
+        float: left;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .custooltipforermsg {
+        left: 60px !important;
+        top: 365px !important;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .custooltipforermsg {
+        left: 40px !important;
+        top: 400px !important;
+    }
+}
+
+@media only screen and (max-width: 1265px) {
+      .highcharts-legend {
+  /* doesn't work in IE */
+  transform: translate(300px, 210px) !important;
+}
+
+ div.highcharts-legend {
+      left: 0 !important;
+    top: 0 !important;
+    
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+      .highcharts-legend {
+  /* doesn't work in IE */
+  transform: translate(270px, 210px) !important;
+}
+
+ div.highcharts-legend {
+      left: 0 !important;
+    top: 0 !important;
+    
+    }
+}
+@media only screen and (max-width: 1060px) {
+      .highcharts-legend {
+  /* doesn't work in IE */
+  transform: translate(250px, 210px) !important;
+}
+
+ div.highcharts-legend {
+      left: 0 !important;
+    top: 0 !important;
+    
+    }
+}
+
+@media only screen and (max-width: 390px) {
+      .highcharts-legend {
+  /* doesn't work in IE */
+  transform: translate(70px, 200px) !important;
+}
+
+ div.highcharts-legend {
+      left: 0 !important;
+    top: 0 !important;
+    
+    }
+}
+
+/*Pratik*/
+@media only screen and (max-width: 459px) {
+    
+   
+    .highcharts-legend {
+  /* doesn't work in IE */
+  transform: translate(120px, 200px) !important;
+}
+
+ div.highcharts-legend {
+      left: 0 !important;
+    top: 0 !important;
+    
+    }
+    /*Pratik*/
+    .btop50tooltipcus {
+        margin-left: 0px;
+        padding: 25px !important;
+        max-width: 250px;
+    }
+    .btop50tooltipcus .tooltipster-arrow-top span, .btop50tooltipcus .tooltipster-arrow-top .tooltipster-arrow-border, .btop50tooltipcus .tooltipster-arrow-bottom span, .btop50tooltipcus .tooltipster-arrow-bottom .tooltipster-arrow-border {
+        right: 20px !important;
+    }
+    /*Pratik*/
+.bkg{
+	background: url("../../images/5.jpg");
+	background-size: auto 100vh;
+	background-position: center center;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	content: "";
+	display: block;
+	position: fixed;
+	z-index: -1;
+	top: 0;
+}
+.mt_perform{
+	background: none;
+	
+}
+.mt_perform .wrapper {
+    width: auto;
+    padding-top: 50px;
+}
+.mt_graph{
+	width: 98%;
+	margin-left: -4%;
+	background-size: 300% auto;
+	padding: 70px 20px 20px;
+	top: -180px;
+}
+.left_gra {
+    float: left;
+    width: 100%;
+}
+
+.p_title h2 {
+}
+
+.right_gra {
+    width: 100%;
+}
+
+.footable.breakpoint > tbody > tr > td > span.footable-toggle {
+    float: left;
+}
+
+.safer table.footable > tbody > tr > td, .h_return table.footable > tbody > tr > td {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.graph_contain .highcharts-container {
+    width: 100% !important;
+    height: auto !important;
+    overflow: inherit !important;
+}
+
+/* ilya */
+.box1{
+	display: inline-table;
+    width: 100%;
+    height: auto;
+    border: solid 3px #cfcfcf;
+    margin-right: 15px;
+    }
+    .boxactive{
+	    border-color: #253F6F;
+    }
+    .imgcl{
+	    width: 20%!important;
+	    display: inline-block;
+	    text-align: left!important;
+	    padding-top: 10px;
+	    vertical-align: middle;
+	    margin-bottom: 8px;
+    }
+    .titlediv {
+    text-align: left;
+    width: 50%!important;
+    display: inline-block;
+}
+	.numberdiv {
+	    width: 20%!important;
+	    display: inline-block;
+	    text-align: center;
+	}
+	.fancybox-inner{
+		height:auto!important;
+		overflow: visible!important;
+	}
+	.titlediv.paddingtop,.titlediv.paddingtop2{
+		vertical-align: top;
+	}
+	.paddingtop2 {
+	    padding-top: 15px;
+	}
+	.box1 .titlediv {
+   	 font-size: 14px;
+	}
+	.box1 .titlediv br{
+		display: none;
+		}
+	.cogicon{
+		float: right;
+	}
+	
+}
+@media (min-width: 1024px){
+.mk-header-logo, .mk-header-logo a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 80px!important;
+    line-height: 50px;
+}
+#mk-header:not(.header-structure-vertical) #mk-main-navigation > ul > li.menu-item > a{
+	line-height: 110px!important;
+}
+.tdexptoolch {
+    width:135px;
+    display: block;
+}
+.mdivfancy{
+	margin-top: 15px;
+}
+.closefancy{
+	position: relative;
+    top: -10px;
+}
+.downloadFile{
+	margin-top: 20px;
+	width: 100%;
+	text-align: right;
+}
+}
+
+/*.tooldataforport {
+    background-color: #fff;
+    box-shadow: 0 0 5px 3px #ddd;
+    display: none;
+    height: 50px;
+    padding: 5px;
+    position: absolute;
+    right: -220px;
+    top: -16px;
+    vertical-align: middle;
+    width: 200px;
+}*/
+/*
+.wrapdivfortoolch img {
+    float: left;
+    white-space: pre-line;
+}
+*/
+.wrapdivfortoolch strong {
+    float: left;
+    margin-right: 7px;
+}
+.wrapdivfortoolch span {
+    float: left;
+}
+.rsfor06 {
+    display: none;
+}
+.corrfor06 {
+    
+    display: none;
+}
